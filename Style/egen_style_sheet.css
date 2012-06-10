@@ -1,0 +1,559 @@
+body {
+	background-color: bisque;
+	margin: 0;
+	padding: 0;
+}
+
+#content-wrapper {
+	background-color: #E6E6E6;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	border-width: 0 1px 0 1px;
+	border-style: solid;
+	border-color: #666666;
+	position:relative;
+}
+
+#banner-wrapper {
+	width: 700px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3px;
+	position: relative;
+	background-color: CadetBlue;
+}
+
+#banner-image {
+	
+}
+
+#banner-image a {
+	color: white;
+	font-size: 135px;
+	float:left;
+	font-family: sans-serif;
+	margin: 30px 0 0 0;
+}
+
+#social-plane {
+	width: 100px;
+	height: 130;
+	float:right;
+	margin: 30px 0 0 0;
+}
+
+.slinkf {
+	display:none;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: white;
+	float:left;
+	margin: 9px 0 0 0;
+	text-decoration: none;
+}
+.slinkt {
+	display:none;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: white;
+	float:left;
+	margin: 9px 0 0 0;
+	text-decoration:none;
+}
+
+.slinkg {
+	display:none;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: white;
+	float:left;
+	margin: 9px 0 0 0;
+	text-decoration:none;
+}
+
+.slinkr {
+	display:none;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: white;
+	float:left;
+	margin: 9px 0 0 0;
+	text-decoration:none;
+}
+
+#facebook {
+	margin: 0 0 3px 0;
+	background-color: pink;
+	width: 30px;
+	height: 30px;
+	margin-left:auto;
+}
+
+#twitter {
+	margin: 0 0 3px 0;
+	background-color: pink;
+	width: 30px;
+	height: 30px;
+	margin-left:auto;
+}
+
+#google {
+	margin: 0 0 3px 0;
+	background-color: pink;
+	width: 30px;
+	height: 30px;
+	margin-left:auto;
+}
+
+#rss {
+	margin: 0 0 3px 0;
+	background-color: pink;
+	width: 30px;
+	height: 30px;
+	margin-left:auto;
+}
+
+.sociallogo {
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+	float:left;
+}
+
+.socialgooglelogo {
+	width: 25px;
+	height: 25px;
+	margin: 2.5px;
+	float:left;
+}
+
+#footer {
+	background-color: black;
+	width: 100%;
+	height: 50px;
+	position: relative;
+	color: gray;
+}
+
+#footer-content {
+	width: 1000px;
+	position: relative;
+	margin: 0 auto 0 auto;
+	border-style: solid;
+	border-color: black;
+	border-width: 7px 0 0 0;
+	font-family: sans-serif;
+	font-size: 13px;
+}
+
+#navi-wrapper {
+	width: 700px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	position: relative;
+	line-height:30px;
+	color:#FFF;
+	font-family: sans-serif;
+	font-size:20px;
+	z-index: 100000;
+	position: relative;
+	outline: none;
+}
+
+#navi-wrapper ul
+{
+	padding:0px;
+	margin:0;
+	list-style:none;
+}
+#navi-wrapper ul li
+{
+	padding:0;
+	margin:0 3px 0 0;
+	float:left;
+	background:#666666;
+}
+#navi-wrapper ul li a
+{
+	color:#FFF;
+	display:block;
+	text-decoration:none;
+	padding:0 25px;
+}
+#navi-wrapper ul li a:hover
+{
+	background:#DA4747;
+	color:#000;
+}
+#navi-wrapper ul li ul
+{
+	 display: none;
+	 width: auto;
+	 position:absolute;
+	 top:30px;
+	 padding:0px;
+	 margin:0px;
+}
+
+#navi-wrapper a {
+	outline: none;
+}
+
+#navi-wrapper ul li li a:hover
+{
+ 	color:#000;
+}
+
+.shows {}
+.shows1 {}
+.shows2 {}
+
+.about {}
+.about1 {}
+.about2 {}
+
+#page_id, #page_id2 {
+	height: 40px;
+	width: 700px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 45px;
+	border-style: solid;
+	border-width: 0 0 3px 0;
+	border-color: #DA4747;
+	position: relative;
+	margin: 0 auto 10px auto;
+	color: #DA4747;
+}
+
+#news-wrapper {
+	width: 700px;
+	height: 400px;
+	background-color: gray;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	position: relative;
+	z-index: 0;
+}
+
+#news-large-wrapper{
+	width: 700px;
+	height: 300px;
+}
+
+.largenewsimg {
+	width: 700px;
+	height: 300px;
+	outline: none;
+}
+
+.smallnewsimg {
+	width: 175px;
+	height: 95px;
+}
+
+.headline {
+	color: white;
+	text-decoration: none;
+	outline: none;
+}
+
+#news-large-1 {
+	width: 100%;
+	height: 300px;
+	background-color: blue;
+	position: absolute;
+	z-index: 5;
+}
+
+#news-large-2 {
+	width: 100%;
+	height: 300px;
+	background-color: green;
+	position: absolute;
+	opacity: 0;
+}
+
+#news-large-3 {
+	width: 100%;
+	height: 300px;
+	background-color: yellow;
+	position: absolute;
+	opacity: 0;
+}
+
+#news-large-4 {
+	width: 100%;
+	height: 300px;
+	background-color: purple;
+	position: absolute;
+	opacity: 0;
+	color: white;
+	font-size: 13px;
+}
+
+#story-desc {
+	height: 70px;
+	width: 700px;
+	color: white;
+	font-family: sans-serif;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	bottom: 0;
+}
+
+#story-desc-title {
+	font-size: 20px;
+	margin: 5px 0 0 5px;
+	position: relative;
+}
+
+#story-desc-desc {
+	font-size: 12px;
+	position: relative;
+	margin:5px 0 0 5px;
+}
+
+#news-small-1 {
+	width: 175px;
+	height: 95px;
+	float: left;
+	background-color: blue;
+	border-style: solid;
+	border-color: red;
+	border-width: 5px 0 0 0;
+}
+
+#news-small-2 {
+	width: 175px;
+	height: 95px;
+	float: left;
+	background-color: green;
+	border-style: solid;
+	border-color: dimgray;
+	border-width: 5px 0 0 0;
+}
+
+#news-small-3 {
+	width: 175px;
+	height: 95px;
+	float: left;
+	background-color: yellow;
+	border-style: solid;
+	border-color: dimgray;
+	border-width: 5px 0 0 0;
+}
+
+#news-small-4 {
+	width: 175px;
+	height: 95px;
+	float: left;
+	background-color: purple;
+	border-style: solid;
+	border-color: dimgray;
+	border-width: 5px 0 0 0;
+}
+
+#livestream-wrapper {
+	width: 700px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 0;
+	background-color: black;
+	color: white;
+	font-size: 30px;
+}
+
+#shows-thumbnail-wrapper {
+	width: 700px;
+	height: 570px;
+	background-color: gray;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 0;
+}
+
+#loopedin-thumbnail-wrapper {
+	width: 600px;
+	height: 50px;
+	position: relative;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50px;
+}
+
+.temp1 {
+	color: yellow;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: sans-serif;
+	background-color: blue;
+	text-decoration: none;
+	position:relative;
+	width: 600px;
+	height: 50px;
+	display: block;
+}
+
+#nightcap-thumbnail-wrapper {
+	width: 600px;
+	height: 50px;
+	position: relative;
+	background-color: white;
+	margin: 0 auto 0 auto;
+	top: 60px;
+}
+
+.temp2 {
+	color: red;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: sans-serif;
+	background-color: black;
+	text-decoration: none;
+	position:relative;
+	width: 600px;
+	height: 50px;
+	display: block;
+}
+
+#takingthelunge-thumbnail-wrapper {
+	width: 600px;
+	height: 50px;
+	position: relative;
+	background-color: #DA4747;
+	margin: 0 auto 0 auto;
+	top: 70px;
+}
+
+.temp3 {
+	color: black;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: sans-serif;
+	background-color: green;
+	text-decoration: none;
+	position:relative;
+	width: 600px;
+	height: 50px;
+	display: block;
+}
+
+.temp4 {
+	display: none;
+}
+
+.temp5 {
+	display: none;
+}
+
+.temp6 {
+	display: none;
+}
+
+#post-wrapper {
+	position: relative;
+	margin: 0 auto 0 auto;
+	width: 700px;
+	height: 1030px;
+	overflow-y: hidden;
+}
+
+#post-wrapper.hidden {
+	display: none;
+}
+
+#post {
+	height: 135px;
+	border-width: 0 0 2px 0;
+	border-color: darkorange;
+	border-style: dotted;
+	margin: 5px 0 10px 0;
+}
+
+#post-title {
+	float:left;
+	font-family:sans-serif;
+	font-size: 20px;
+}
+
+#post-title a {
+	text-decoration: none;
+	color: #505050;
+	outline: none;
+	font-weight: bold;
+}
+
+#post-date {
+	float:left;
+	margin: 7px 0 0 50px;
+	font-family:sans-serif;
+	font-size: 12px;
+}
+
+#post-media {
+	width: 160px;
+	height: 100px;
+	background-color: blue;
+	float:left;
+	clear:both;
+	margin: 5px 0 0 0;
+
+}
+
+#post-text {
+	float:left;
+	width: 520px;
+	height: 100px;
+	margin: 5px 0 0 10px;
+	font-family:sans-serif;
+}
+
+#post-text a.link {
+	color:CadetBlue;
+	outline:none;
+	text-decoration: none;
+}
+
+#post-comments-input {
+
+}
+
+#post-comments-output {
+
+}
+
+#older-news-button {
+	width: 300px;
+	height: 40px;
+	background-color: gray;
+	position: relative;
+	margin: 30px auto 0 auto;
+	font-family:sans-serif;
+	font-size: 20px;
+	color: black;
+}
+
+#older-news-button:hover {
+	background-color: #666666;
+	color: white;
+}
+
+#older-news-button-text-wrap {
+	position: relative;
+	margin: 0 auto 0 auto;
+	top: 12px;
+	width: 235px;
+}
